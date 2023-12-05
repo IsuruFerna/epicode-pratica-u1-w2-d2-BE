@@ -50,5 +50,7 @@ public class Main1 {
         Set<String> cleanedWordsList = new HashSet<>(stringList);
         System.out.println("Without duplicated words: " + cleanedWordsList);
 
+        input.close();
+
     }
 }
